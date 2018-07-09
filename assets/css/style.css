@@ -1,0 +1,236 @@
+body {
+    margin: auto;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png);
+}
+
+header {
+    background-color:#ffffff;
+    /* padding: 40px; */
+    border-bottom-color: #cccccc;
+    border-bottom-width: thick;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    margin: auto;
+    width: 960px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* height: 40px; */
+}
+
+.name {
+    float: left;
+    /* margin: 0px; */
+    background: #4aaaa5;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    /* margin-top: 11px; */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    float: right;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:5px;
+}
+
+li a {
+    color: #777777;
+    text-decoration: none;
+    /* padding: 10px; */
+}
+
+section {
+    width: 920px;
+    clear: both;
+    margin: auto;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: thick;
+    padding: 20px;
+}
+
+h1 {
+    /* margin: 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content{
+    /* margin-left: 10px; */
+    /* clear: both; */
+    overflow: auto;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: -webkit-fill-available;
+    padding: 5px;
+}
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: -webkit-fill-available;
+    padding: 5px;
+}
+button {
+    background: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding-top: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+img{
+    height:200px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* On screens 980px or less, use this. */
+
+@media screen and (max-width: 960px){
+   
+    
+    header {
+        position: static;
+        padding: 10px;
+
+        /* background-color:#ffffff;
+        border-bottom-color: #cccccc;
+        border-bottom-width: thick;
+        height: 60px;
+        margin-bottom: 40px; */
+    }
+
+    .navbar{
+        width: auto;
+    }
+    
+    section {
+        display:block;
+        width: 70%;
+        clear: both;
+        margin: 10px;
+    }
+      
+  }
+
+/* On screens 768px or less, use this. */
+  @media screen and (max-width:768px) {
+    header {
+        position: static;
+
+    }
+    .navbar {
+        width: auto;
+    }
+    
+    section {
+        width: auto;
+        clear: both;
+       
+    }
+  }
+    
+/* On screens 640px or less, use this. */
+
+
+@media screen and (max-width: 640px) {
+
+    header {
+        position: static;
+        padding: 0px;
+    }
+    
+    .navbar {
+        width: 100%;
+        margin: 0px;
+        /* margin-bottom: 198px; */
+    }
+    
+    .name {
+        float: none;
+    }
+    
+    ul {
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        background: #ffffff;
+
+    }
+    section {
+        width: auto;
+        clear: both;
+        margin: 20px;
+        margin-top: 40px;
+        /* position: absolute; */
+    }
+    img {
+        height: 300px;
+        float:none;
+        /* margin: auto; */
+        /* margin-left: 40%; */
+        /* margin-bottom: 10px; */
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }  
+
